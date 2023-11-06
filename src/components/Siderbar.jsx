@@ -2,7 +2,6 @@ import { Stack } from '@mui/material'
 import { categories } from '../utils/constants'
 const Siderbar = ({ selectedCategory, setSelectedCategory }) => {
     const handleChange = (categoryName) => {
-        console.log(categoryName)
         setSelectedCategory(categoryName)
     }
     return (
